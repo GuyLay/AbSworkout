@@ -3,7 +3,7 @@
     "id": "a-1",
     "day": "A",
     "name": "Leg Raises",
-    "description": "שמור על הגוף ישר והורד את החזה לכיוון הרצפה, לאחר מכן דחף את הגוף חזרה למעלה. שלוט בירידה",
+    "description": "שכב על הגב והרם רגליים ישרות עד כ-90°. הורד אותן לאט מבלי שהגב התחתון יתנתק מהרצפה",
     "duration": 40,
     "restTime": 20,
     "media": "./videos/legRaises.gif"
@@ -12,7 +12,7 @@
     "id": "a-2",
     "day": "A",
     "name": "Reverse Crunch",
-    "description": "Hold a straight-arm plank position. Engage your core, keep your hips level, and breathe steadily.",
+    "description": "כופף ברכיים לכיוון החזה והרם מעט את האגן מהרצפה. חזור לאט לנקודת ההתחלה תוך שליטה בתנועה",
     "duration": 40,
     "restTime": 20,
     "media": "./videos/ReverseCrunch.gif"
@@ -21,7 +21,7 @@
     "id": "a-3",
     "day": "A",
     "name": "Flutter Kicks",
-    "description": "From a plank position, drive your knees toward your chest alternately in a running motion.",
+    "description": "שכב על הגב עם רגליים מעט מעל הקרקע ובצע בעיטות קטנות לסירוגין. שמור על בטן אסופה וגב תחתון צמוד לרצפה",
     "duration": 40,
     "restTime": 20,
     "media": "./videos/FlutterKicks.gif"
@@ -30,7 +30,7 @@
     "id": "a-4",
     "day": "A",
     "name": "Plank",
-    "description": "From a plank position, drive your knees toward your chest alternately in a running motion.",
+    "description": "הישען על האמות ושמור גוף בקו ישר מהראש עד העקבים. כווץ את הבטן והימנע משקיעה או הרמת האגן",
     "duration": 45,
     "restTime": 45,
     "media": "./videos/Plank.gif"
@@ -39,7 +39,7 @@
     "id": "b-1",
     "day": "B",
     "name": "Dead Bug",
-    "description": "Feet shoulder-width apart. Lower your hips until thighs are parallel to the floor, then stand back up.",
+    "description": "שכב על הגב עם ידיים ורגליים מורמות, הורד יד ורגל נגדית לאט לכיוון הרצפה. שמור על גב תחתון צמוד למזרון ושלוט בתנועה",
     "duration": 40,
     "restTime": 20,
     "media": "./videos/DeadBug.gif"
@@ -48,7 +48,7 @@
     "id": "b-2",
     "day": "B",
     "name": "Hollow Body Hold",
-    "description": "Lie on your back and lift your knees toward your chest, curling your hips off the floor.",
+    "description": "שכב על הגב והרם ידיים ורגליים מעט מהרצפה. שמור גב תחתון צמוד למזרון ובטן מכווצת לאורך כל ההחזקה",
     "duration": 40,
     "restTime": 20,
     "media": "./videos/HollowBodyHold.gif"
@@ -57,7 +57,7 @@
     "id": "b-3",
     "day": "B",
     "name": "Mountain Climbers",
-    "description": "Lie on your back with knees bent. Drive your hips up until your body forms a straight line from knees to shoulders.",
+    "description": "מתנוחת פלאנק גבוה הבא ברכיים לחזה לסירוגין. שמור על גוף יציב וגב ישר תוך קצב נשלט",
     "duration": 40,
     "restTime": 20,
     "media": "./videos/MountainClimbers.gif"
@@ -66,7 +66,7 @@
     "id": "b-4",
     "day": "B",
     "name": "Side Plank (Left)",
-    "description": "Lie on your back with knees bent. Drive your hips up until your body forms a straight line from knees to shoulders.",
+    "description": "הישען על מרפק אחד והחזק את הגוף בקו ישר מהראש עד הרגליים. כווץ את הבטן ושמור על האגן יציב",
     "duration": 30,
     "restTime": 5,
     "media": "./videos/SidePlank.gif"
@@ -75,7 +75,7 @@
     "id": "b-5",
     "day": "B",
     "name": "Side Plank (Right)",
-    "description": "Lie on your back with knees bent. Drive your hips up until your body forms a straight line from knees to shoulders.",
+    "description": "הישען על מרפק אחד והחזק את הגוף בקו ישר מהראש עד הרגליים. כווץ את הבטן ושמור על האגן יציב",
     "duration": 30,
     "restTime": 45,
     "media": "./videos/SidePlank.gif"
@@ -84,7 +84,7 @@
     "id": "c-1",
     "day": "C",
     "name": "Bicycle Crunch",
-    "description": "Drop into a squat, kick feet back to a plank, do a push-up, return, then jump with arms overhead.",
+    "description": "הבא מרפק לכיוון הברך הנגדית תוך יישור הרגל השנייה. בצע את התנועה בקצב נשלט ושמור על בטן מכווצת",
     "duration": 40,
     "restTime": 20,
     "media": "./videos/BicycleCrunch.gif"
@@ -93,7 +93,7 @@
     "id": "c-2",
     "day": "C",
     "name": "Cross Body Crunch (Left)",
-    "description": "Lie on your left side, prop yourself up on your left forearm. Keep your body in a straight line.",
+    "description": "הרם את הכתף לכיוון הברך הנגדית וסובב מעט את הגוף. חזור לאט וחזור על הפעולה לצד השני",
     "duration": 20,
     "restTime": 5,
     "media": "./videos/CrossBodyCrunch.gif"
@@ -102,7 +102,7 @@
     "id": "c-3",
     "day": "C",
     "name": "Cross Body Crunch (Right)",
-    "description": "Lie on your left side, prop yourself up on your left forearm. Keep your body in a straight line.",
+    "description": "הרם את הכתף לכיוון הברך הנגדית וסובב מעט את הגוף. חזור לאט וחזור על הפעולה לצד השני",
     "duration": 20,
     "restTime": 20,
     "media": "./videos/CrossBodyCrunch.gif"
@@ -111,7 +111,7 @@
     "id": "c-4",
     "day": "C",
     "name": "Russian Twist",
-    "description": "Lie on your right side, prop yourself up on your right forearm. Keep your body in a straight line.",
+    "description": "שב עם גוף מעט לאחור וסובב את הגו מצד לצד. שמור על בטן מכווצת ותנועה נשלטת",
     "duration": 40,
     "restTime": 20,
     "media": "./videos/RussianTwist.gif"
@@ -120,7 +120,7 @@
     "id": "c-5",
     "day": "C",
     "name": "Plank Shoulder Taps",
-    "description": "Lie on your right side, prop yourself up on your right forearm. Keep your body in a straight line.",
+    "description": "מתנוחת פלאנק גבוה גע עם יד אחת בכתף הנגדית. שמור על אגן יציב והימנע מתנועתיות מיותרת בגוף",
     "duration": 40,
     "restTime": 45,
     "media": "./videos/PlankShoulderTaps.gif"
