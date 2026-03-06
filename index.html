@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f0f0f" />
+  <title>ABS Workout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+
+    <!-- Tab bar -->
+    <nav class="tab-bar" id="tab-bar" role="tablist">
+      <button class="tab" data-day="Sunday"    role="tab">Sunday</button>
+      <button class="tab" data-day="Monday"    role="tab">Monday</button>
+      <button class="tab" data-day="Tuesday"   role="tab">Tuesday</button>
+      <button class="tab" data-day="Wednesday" role="tab">Wednesday</button>
+    </nav>
+
+    <!-- ── Exercise Screen ── -->
+    <section class="screen" id="screen-exercise" aria-live="polite">
+      <p class="progress-label" id="progress-label">Exercise 1 of 3</p>
+
+      <h1 class="exercise-name" id="exercise-name">Exercise Name</h1>
+      <p  class="exercise-desc" id="exercise-desc">Description goes here.</p>
+
+      <!-- Video or image rendered by JS -->
+      <div class="media-wrap" id="media-wrap">
+        <div class="media-placeholder" id="media-placeholder">No media</div>
+      </div>
+
+      <!-- SVG circular countdown ring -->
+      <div class="timer-wrap">
+        <svg class="ring" viewBox="0 0 120 120" aria-hidden="true">
+          <!-- Background track -->
+          <circle class="ring-track" cx="60" cy="60" r="52" />
+          <!-- Animated progress arc -->
+          <circle class="ring-progress" id="ring-progress" cx="60" cy="60" r="52" />
+        </svg>
+        <span class="timer-text" id="timer-text">--</span>
+      </div>
+
+      <div class="btn-row">
+        <button class="btn btn-start" id="btn-start" aria-label="Start exercise">&#9654; Start</button>
+        <button class="btn btn-done"  id="btn-done"  aria-label="Mark exercise done">&#10003; Done</button>
+      </div>
+    </section>
+
+    <!-- ── Rest Screen ── -->
+    <section class="screen hidden" id="screen-rest" aria-live="assertive">
+      <h2 class="rest-label">REST</h2>
+
+      <div class="timer-wrap">
+        <svg class="ring" viewBox="0 0 120 120" aria-hidden="true">
+          <circle class="ring-track" cx="60" cy="60" r="52" />
+          <circle class="ring-progress ring-rest" id="ring-rest" cx="60" cy="60" r="52" />
+        </svg>
+        <span class="timer-text" id="rest-timer-text">--</span>
+      </div>
+
+      <p class="next-up-label">Up next</p>
+      <p class="next-up-name" id="next-up-name">—</p>
+    </section>
+
+    <!-- ── Complete Screen ── -->
+    <section class="screen hidden" id="screen-complete" aria-live="polite">
+      <div class="complete-inner">
+        <div class="complete-icon">&#127881;</div>
+        <h2 class="complete-title">Workout Complete!</h2>
+        <p  class="complete-sub">Great work today. See you next session.</p>
+        <button class="btn btn-restart" id="btn-restart">Restart Day</button>
+      </div>
+    </section>
+
+  </div><!-- /#app -->
+
+  <script src="app.js"></script>
+</body>
+</html>

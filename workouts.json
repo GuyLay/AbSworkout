@@ -1,0 +1,92 @@
+[
+  {
+    "id": "sun-1",
+    "day": "Sunday",
+    "name": "Push-Up",
+    "description": "Keep your body straight and lower your chest to the floor, then push back up. Control the descent.",
+    "duration": 40,
+    "restTime": 20,
+    "media": "./videos/pushup.mp4"
+  },
+  {
+    "id": "sun-2",
+    "day": "Sunday",
+    "name": "Plank",
+    "description": "Hold a straight-arm plank position. Engage your core, keep your hips level, and breathe steadily.",
+    "duration": 45,
+    "restTime": 15,
+    "media": "./images/plank.jpg"
+  },
+  {
+    "id": "sun-3",
+    "day": "Sunday",
+    "name": "Mountain Climbers",
+    "description": "From a plank position, drive your knees toward your chest alternately in a running motion.",
+    "duration": 35,
+    "restTime": 20,
+    "media": "./videos/mountain-climbers.mp4"
+  },
+  {
+    "id": "mon-1",
+    "day": "Monday",
+    "name": "Squat",
+    "description": "Feet shoulder-width apart. Lower your hips until thighs are parallel to the floor, then stand back up.",
+    "duration": 40,
+    "restTime": 20,
+    "media": "./videos/squat.mp4"
+  },
+  {
+    "id": "mon-2",
+    "day": "Monday",
+    "name": "Reverse Crunch",
+    "description": "Lie on your back and lift your knees toward your chest, curling your hips off the floor.",
+    "duration": 35,
+    "restTime": 20,
+    "media": "./images/reverse-crunch.jpg"
+  },
+  {
+    "id": "mon-3",
+    "day": "Monday",
+    "name": "Glute Bridge",
+    "description": "Lie on your back with knees bent. Drive your hips up until your body forms a straight line from knees to shoulders.",
+    "duration": 40,
+    "restTime": 15,
+    "media": "./videos/glute-bridge.mp4"
+  },
+  {
+    "id": "tue-1",
+    "day": "Tuesday",
+    "name": "Burpee",
+    "description": "Drop into a squat, kick feet back to a plank, do a push-up, return, then jump with arms overhead.",
+    "duration": 30,
+    "restTime": 25,
+    "media": "./videos/burpee.mp4"
+  },
+  {
+    "id": "tue-2",
+    "day": "Tuesday",
+    "name": "Side Plank (Left)",
+    "description": "Lie on your left side, prop yourself up on your left forearm. Keep your body in a straight line.",
+    "duration": 30,
+    "restTime": 10,
+    "media": "./images/side-plank.jpg"
+  },
+  {
+    "id": "tue-3",
+    "day": "Tuesday",
+    "name": "Side Plank (Right)",
+    "description": "Lie on your right side, prop yourself up on your right forearm. Keep your body in a straight line.",
+    "duration": 30,
+    "restTime": 20,
+    "media": "./images/side-plank.jpg"
+  },
+  {
+    "id": "wed-1",
+    "day": "Wednesday",
+    "name": "Side Plank (Right)",
+    "description": "Lie on your right side, prop yourself up on your right forearm. Keep your body in a straight line.",
+    "duration": 30,
+    "restTime": 20,
+    "media": "./images/side-plank.jpg"
+  }
+]
