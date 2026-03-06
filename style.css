@@ -76,13 +76,50 @@ button { cursor: pointer; border: none; font-family: inherit; }
 
 .hidden { display: none !important; }
 
+/* ── Day info strip ─────────────────────────────────────── */
+.day-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: var(--surface);
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.day-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.day-total-time {
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
 /* ── Exercise screen ────────────────────────────────────── */
+.ex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
 .progress-label {
   font-size: 0.78rem;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  align-self: flex-start;
+}
+
+.set-label {
+  font-size: 0.78rem;
+  color: var(--accent);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .exercise-name {
@@ -154,7 +191,7 @@ button { cursor: pointer; border: none; font-family: inherit; }
   stroke-linecap: round;
   stroke-dasharray: var(--ring-circ);
   stroke-dashoffset: 0;            /* full ring = no offset */
-  transition: stroke-dashoffset 1s linear;
+  transition: stroke-dashoffset 0.05s linear;
 }
 
 .ring-rest {
@@ -172,6 +209,28 @@ button { cursor: pointer; border: none; font-family: inherit; }
   font-variant-numeric: tabular-nums;
   /* undo the parent SVG rotation so text is upright */
 }
+
+/* ── Set timeline ───────────────────────────────────────── */
+.timeline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.tl-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--surface2);
+  transition: background 0.2s, transform 0.2s;
+  flex-shrink: 0;
+}
+
+.tl-dot.done    { background: var(--done); }
+.tl-dot.active  { background: var(--accent); transform: scale(1.4); }
 
 /* ── Buttons ────────────────────────────────────────────── */
 .btn-row {
@@ -220,6 +279,20 @@ button { cursor: pointer; border: none; font-family: inherit; }
   letter-spacing: 0.15em;
   color: var(--accent);
 }
+
+.btn-skip-rest {
+  min-height: 36px;
+  padding: 0 20px;
+  border-radius: var(--radius);
+  background: var(--done);
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  transition: opacity 0.15s, transform 0.1s;
+}
+
+.btn-skip-rest:active { transform: scale(0.97); }
 
 .next-up-label {
   font-size: 0.78rem;

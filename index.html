@@ -10,17 +10,22 @@
 <body>
   <div id="app">
 
-    <!-- Tab bar -->
-    <nav class="tab-bar" id="tab-bar" role="tablist">
-      <button class="tab" data-day="Sunday"    role="tab">Sunday</button>
-      <button class="tab" data-day="Monday"    role="tab">Monday</button>
-      <button class="tab" data-day="Tuesday"   role="tab">Tuesday</button>
-      <button class="tab" data-day="Wednesday" role="tab">Wednesday</button>
-    </nav>
+    <!-- Tab bar — populated dynamically from days.json -->
+    <nav class="tab-bar" id="tab-bar" role="tablist"></nav>
+
+    <!-- Day info strip: name + total practice time -->
+    <div class="day-info" id="day-info">
+      <span class="day-name" id="day-name">—</span>
+      <span class="day-total-time" id="day-total-time">—</span>
+    </div>
 
     <!-- ── Exercise Screen ── -->
     <section class="screen" id="screen-exercise" aria-live="polite">
-      <p class="progress-label" id="progress-label">Exercise 1 of 3</p>
+
+      <div class="ex-header">
+        <p class="progress-label" id="progress-label">Exercise 1 of 3</p>
+        <p class="set-label"      id="set-label">Set 1 of 2</p>
+      </div>
 
       <h1 class="exercise-name" id="exercise-name">Exercise Name</h1>
       <p  class="exercise-desc" id="exercise-desc">Description goes here.</p>
@@ -33,13 +38,14 @@
       <!-- SVG circular countdown ring -->
       <div class="timer-wrap">
         <svg class="ring" viewBox="0 0 120 120" aria-hidden="true">
-          <!-- Background track -->
-          <circle class="ring-track" cx="60" cy="60" r="52" />
-          <!-- Animated progress arc -->
+          <circle class="ring-track"    cx="60" cy="60" r="52" />
           <circle class="ring-progress" id="ring-progress" cx="60" cy="60" r="52" />
         </svg>
         <span class="timer-text" id="timer-text">--</span>
       </div>
+
+      <!-- Dot timeline: one dot per exercise in the set -->
+      <div class="timeline" id="timeline" aria-hidden="true"></div>
 
       <div class="btn-row">
         <button class="btn btn-start" id="btn-start" aria-label="Start exercise">&#9654; Start</button>
@@ -59,8 +65,10 @@
         <span class="timer-text" id="rest-timer-text">--</span>
       </div>
 
-      <p class="next-up-label">Up next</p>
-      <p class="next-up-name" id="next-up-name">—</p>
+      <p class="next-up-label" id="next-up-label">Up next</p>
+      <p class="next-up-name"  id="next-up-name">—</p>
+
+      <button class="btn-skip-rest" id="btn-skip-rest" aria-label="Skip rest">&#9654; Skip Rest</button>
     </section>
 
     <!-- ── Complete Screen ── -->

@@ -1,92 +1,128 @@
 [
   {
-    "id": "sun-1",
-    "day": "Sunday",
-    "name": "Push-Up",
-    "description": "Keep your body straight and lower your chest to the floor, then push back up. Control the descent.",
+    "id": "a-1",
+    "day": "A",
+    "name": "Leg Raises",
+    "description": "שמור על הגוף ישר והורד את החזה לכיוון הרצפה, לאחר מכן דחף את הגוף חזרה למעלה. שלוט בירידה",
     "duration": 40,
     "restTime": 20,
-    "media": "./videos/pushup.mp4"
+    "media": "./videos/legRaises.gif"
   },
   {
-    "id": "sun-2",
-    "day": "Sunday",
-    "name": "Plank",
+    "id": "a-2",
+    "day": "A",
+    "name": "Reverse Crunch",
     "description": "Hold a straight-arm plank position. Engage your core, keep your hips level, and breathe steadily.",
-    "duration": 45,
-    "restTime": 15,
-    "media": "./images/plank.jpg"
-  },
-  {
-    "id": "sun-3",
-    "day": "Sunday",
-    "name": "Mountain Climbers",
-    "description": "From a plank position, drive your knees toward your chest alternately in a running motion.",
-    "duration": 35,
+    "duration": 40,
     "restTime": 20,
-    "media": "./videos/mountain-climbers.mp4"
+    "media": "./videos/ReverseCrunch.gif"
   },
   {
-    "id": "mon-1",
-    "day": "Monday",
-    "name": "Squat",
+    "id": "a-3",
+    "day": "A",
+    "name": "Flutter Kicks",
+    "description": "From a plank position, drive your knees toward your chest alternately in a running motion.",
+    "duration": 40,
+    "restTime": 20,
+    "media": "./videos/FlutterKicks.gif"
+  },
+  {
+    "id": "a-4",
+    "day": "A",
+    "name": "Plank",
+    "description": "From a plank position, drive your knees toward your chest alternately in a running motion.",
+    "duration": 45,
+    "restTime": 45,
+    "media": "./videos/Plank.gif"
+  },
+  {
+    "id": "b-1",
+    "day": "B",
+    "name": "Dead Bug",
     "description": "Feet shoulder-width apart. Lower your hips until thighs are parallel to the floor, then stand back up.",
     "duration": 40,
     "restTime": 20,
-    "media": "./videos/squat.mp4"
+    "media": "./videos/DeadBug.gif"
   },
   {
-    "id": "mon-2",
-    "day": "Monday",
-    "name": "Reverse Crunch",
+    "id": "b-2",
+    "day": "B",
+    "name": "Hollow Body Hold",
     "description": "Lie on your back and lift your knees toward your chest, curling your hips off the floor.",
-    "duration": 35,
+    "duration": 40,
     "restTime": 20,
-    "media": "./images/reverse-crunch.jpg"
+    "media": "./videos/HollowBodyHold.gif"
   },
   {
-    "id": "mon-3",
-    "day": "Monday",
-    "name": "Glute Bridge",
+    "id": "b-3",
+    "day": "B",
+    "name": "Mountain Climbers",
     "description": "Lie on your back with knees bent. Drive your hips up until your body forms a straight line from knees to shoulders.",
     "duration": 40,
-    "restTime": 15,
-    "media": "./videos/glute-bridge.mp4"
+    "restTime": 20,
+    "media": "./videos/MountainClimbers.gif"
   },
   {
-    "id": "tue-1",
-    "day": "Tuesday",
-    "name": "Burpee",
-    "description": "Drop into a squat, kick feet back to a plank, do a push-up, return, then jump with arms overhead.",
-    "duration": 30,
-    "restTime": 25,
-    "media": "./videos/burpee.mp4"
-  },
-  {
-    "id": "tue-2",
-    "day": "Tuesday",
+    "id": "b-4",
+    "day": "B",
     "name": "Side Plank (Left)",
+    "description": "Lie on your back with knees bent. Drive your hips up until your body forms a straight line from knees to shoulders.",
+    "duration": 30,
+    "restTime": 5,
+    "media": "./videos/SidePlank.gif"
+  },
+  {
+    "id": "b-5",
+    "day": "B",
+    "name": "Side Plank (Right)",
+    "description": "Lie on your back with knees bent. Drive your hips up until your body forms a straight line from knees to shoulders.",
+    "duration": 30,
+    "restTime": 45,
+    "media": "./videos/SidePlank.gif"
+  },
+  {
+    "id": "c-1",
+    "day": "C",
+    "name": "Bicycle Crunch",
+    "description": "Drop into a squat, kick feet back to a plank, do a push-up, return, then jump with arms overhead.",
+    "duration": 40,
+    "restTime": 20,
+    "media": "./videos/BicycleCrunch.gif"
+  },
+  {
+    "id": "c-2",
+    "day": "C",
+    "name": "Cross Body Crunch (Left)",
     "description": "Lie on your left side, prop yourself up on your left forearm. Keep your body in a straight line.",
-    "duration": 30,
-    "restTime": 10,
-    "media": "./images/side-plank.jpg"
+    "duration": 20,
+    "restTime": 5,
+    "media": "./videos/CrossBodyCrunch.gif"
   },
   {
-    "id": "tue-3",
-    "day": "Tuesday",
-    "name": "Side Plank (Right)",
-    "description": "Lie on your right side, prop yourself up on your right forearm. Keep your body in a straight line.",
-    "duration": 30,
+    "id": "c-3",
+    "day": "C",
+    "name": "Cross Body Crunch (Right)",
+    "description": "Lie on your left side, prop yourself up on your left forearm. Keep your body in a straight line.",
+    "duration": 20,
     "restTime": 20,
-    "media": "./images/side-plank.jpg"
+    "media": "./videos/CrossBodyCrunch.gif"
   },
   {
-    "id": "wed-1",
-    "day": "Wednesday",
-    "name": "Side Plank (Right)",
+    "id": "c-4",
+    "day": "C",
+    "name": "Russian Twist",
     "description": "Lie on your right side, prop yourself up on your right forearm. Keep your body in a straight line.",
-    "duration": 30,
+    "duration": 40,
     "restTime": 20,
-    "media": "./images/side-plank.jpg"
+    "media": "./videos/RussianTwist.gif"
+  },
+  {
+    "id": "c-5",
+    "day": "C",
+    "name": "Plank Shoulder Taps",
+    "description": "Lie on your right side, prop yourself up on your right forearm. Keep your body in a straight line.",
+    "duration": 40,
+    "restTime": 45,
+    "media": "./videos/PlankShoulderTaps.gif"
   }
 ]
