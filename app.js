@@ -51,6 +51,9 @@ const btnDone        = $("btn-done");
 const btnSkipRest    = $("btn-skip-rest");
 const btnRestart     = $("btn-restart");
 
+const finishSound = new Audio("./audio/timerSound.mp3");
+finishSound.preload = "auto";
+
 // ── Application state ──────────────────────────────────────────
 let allExercises = [];   // full data from workouts.json
 let daysData     = [];   // full data from days.json
@@ -212,6 +215,7 @@ function beginRest() {
     nextUpName.textContent  = dayExercises[nextIndex]?.name || "—";
   }
 
+  
   startCountdown(restSec, restSec, ringRest, restTimerText, () => {
     currentIndex += 1;
 
@@ -261,6 +265,13 @@ btnRestart.addEventListener("click", () => {
   showExercise();
 });
 
+function playFinishSound() {
+  try {
+    finishSound.currentTime = 0;
+    finishSound.play().catch(() => {});
+  } catch (_) {}
+}
+
 // ── Countdown engine ───────────────────────────────────────────
 function startCountdown(ms, totalMs, ringEl, textEl, onDone) {
   timeRemaining = ms;
@@ -271,6 +282,7 @@ function startCountdown(ms, totalMs, ringEl, textEl, onDone) {
     updateCountdownDisplay(timeRemaining, totalMs, ringEl, textEl);
     if (timeRemaining <= 0) {
       stopTimer();
+      playFinishSound();
       onDone();
     }
   }, 10);
